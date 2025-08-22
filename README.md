@@ -39,4 +39,4 @@ Contributions are always welcome! 🚀
 1. **Fork** this repository  
 2. **Clone** your forked repository  
    ```bash
-   git clone https://github.com/srabon-mario/Comprehensive-Python-Projects
+   https://github.com/srabon-mario/Comprehensive-Python-Projects
