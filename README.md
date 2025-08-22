@@ -1,6 +1,6 @@
 # Comprehensive Python Projects 🐍
 
-A Hub of Python Projects for Beginners  
+List of Python Projects for Beginners  
 
 ---
 
@@ -39,4 +39,4 @@ Contributions are always welcome! 🚀
 1. **Fork** this repository  
 2. **Clone** your forked repository  
    ```bash
-   git clone https://github.com/srabon-mario/Comprehensive-Python-Projects.git
+   git clone https://github.com/srabon-mario/Comprehensive-Python-Projects
