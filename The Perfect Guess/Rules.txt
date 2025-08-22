@@ -1,0 +1,19 @@
+🎮 Game Rules ---
+
+Choose a difficulty level (Easy, Medium, or Hard).
+
+The computer will generate a random number in the selected range.
+
+Players take turns to guess the number.
+
+After each guess, the computer will give a hint:
+
+"Higher number please" → if your guess is too low.
+
+"Lower number please" → if your guess is too high.
+
+The total number of attempts is counted for each player.
+
+The player who guesses the number in fewer attempts wins.
+
+If both players need the same number of attempts, the match is a draw.

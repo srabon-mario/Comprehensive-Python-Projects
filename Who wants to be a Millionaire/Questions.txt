@@ -1,0 +1,17 @@
+Questions = [
+    ["What is the language used for FB?", "Python", "Java", "JS", "c++", 3],
+    ["What is the national fruit of BD?", "Jackfruit", "Mango", "Berry", "Lichi", 1],
+    ["What is the language used for BD?", "Bangla", "English", "Hindi", "Urdu", 1],
+    ["What is the most used country for FB?", "England", "USA", "India", "Pakistan", 3],
+    ["What is the color of Sky?", "Green", "Blue", "Black", "Red", 2],
+    ["What is the capital of France?", "Berlin", "London", "Paris", "Madrid", 3],
+    ["Which planet is known as the Red Planet?", "Earth", "Mars", "Jupiter", "Saturn", 2],
+    ["Who wrote the play 'Hamlet'?", "Charles Dickens", "William Shakespeare", "Leo Tolstoy", "Mark Twain", 2],
+    ["What is the boiling point of water at sea level?", "90°C", "100°C", "110°C", "120°C", 2],
+    ["Which gas do plants absorb from the atmosphere?", "Oxygen", "Nitrogen", "Carbon Dioxide", "Helium", 3],
+    ["What is the hardest natural substance on Earth?", "Gold", "Iron", "Diamond", "Quartz", 3],
+    ["Which element has the chemical symbol 'O'?", "Gold", "Oxygen", "Silver", "Osmium", 2],
+    ["Who painted the Mona Lisa?", "Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet", 1],
+    ["What is the largest ocean on Earth?", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean", 4],
+    ["Which continent is known as the 'Dark Continent'?", "Asia", "Africa", "Australia", "Europe", 2]
+]
