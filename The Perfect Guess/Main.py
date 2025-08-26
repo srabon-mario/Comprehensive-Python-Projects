@@ -31,18 +31,25 @@ def playGames ():
     a = -1
     guesses1 = 0
     while(a != n1):
+        try:
+            if guesses1 == 0:
+                a = int(input(f"Hey {name1}, please guess a number between 1 to {upper}: "))
+            else:
+                a = int(input(f"Please guess another number : "))
+
+            guesses1 +=1
+
+            if ( a > n1):
+                print("Lower number please.")
+
+            elif(a < n1) :
+                print("Higher number please.")
     
-        if guesses1 == 0:
-            a = int(input(f"Hey {name1}, please guess a number between 1 to {upper}: "))
-        else:
-            a = int(input(f"Please guess another number : "))
+        except ValueError :
+            print(f"Hey,{name1} you entered the wrong value!")
+            continue
+    
 
-        guesses1 +=1
-        if ( a > n1):
-            print("Lower number please.")
-
-        elif(a < n1) :
-            print("Higher number please.")
 
     print(f"{name1},you made the guess in {guesses1 } attempts.")
 
@@ -54,19 +61,24 @@ def playGames ():
     a = -1
     guesses2 = 0
     while(a != n2):
+        try:
+            if guesses1 == 0:
+                a = int(input(f"Hey {name2}, please guess a number between 1 to {upper}: "))
+            else:
+                a = int(input(f"Please guess another number : "))
+
+            guesses1 +=1
+
+            if ( a > n2):
+                print("Lower number please.")
+
+            elif(a < n2) :
+                print("Higher number please.")
     
-        if guesses2 == 0:
-            a = int(input(f"Hey {name2}, please guess a number between 1 to {upper}: "))
-        else:
-            a = int(input("Please guess another number : "))
-
-        guesses2 +=1
-        if ( a > n2):
-            print("Lower number please.")
-
-        elif(a < n2) :
-            print("Higher number please.")
-
+        except ValueError :
+            print(f"Hey,{name2} you entered the wrong value!")
+            continue
+    
     print(f"{name2},you made the guess in {guesses2 } attempts.")
     
     print("\nSCOREBOARD ---")
