@@ -40,10 +40,10 @@ def playGames ():
             guesses1 +=1
 
             if ( a > n1):
-                print("Lower number please.")
+                print("<<Lower number please.>>")
 
             elif(a < n1) :
-                print("Higher number please.")
+                print("<<Higher number please.>>")
     
         except ValueError :
             print(f"Hey,{name1} you entered the wrong value!")
@@ -70,10 +70,10 @@ def playGames ():
             guesses1 +=1
 
             if ( a > n2):
-                print("Lower number please.")
+                print("<<Lower number please.>>")
 
             elif(a < n2) :
-                print("Higher number please.")
+                print("<<Higher number please.>>")
     
         except ValueError :
             print(f"Hey,{name2} you entered the wrong value!")
